@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
-import { HandsetSchema } from './handset.schema';
+import { HandsetSchema } from '../schema/handset.schema';
 import { HandsetService } from './handset.service';
 import { HandsetController } from './handset.controller';
 
